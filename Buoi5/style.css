@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #fff;
+}
+
+.site-header {
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo-img {
+  height: 50px;
+  object-fit: contain;
+}
+
+.header-center {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.header-center a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.header-center a:hover{
+    color:#f97316
+}
+
+.iphone{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.header-right .online-status {
+  font-size: 12px;
+  color: #888;
+}
+
+.header-right a {
+  color: #333;
+  text-decoration: none;
+}
+
+.header-right .cart i,
+.header-right .phone i {
+  margin-right: 5px;
+}
+
+.menu-categories {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 20px;
+}
+
+.categories-item {
+    text-align: center;
+    width: 120px;
+}
+
+.categories-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: flex;
+    margin: 0 auto 8px auto;
+    flex-wrap: wrap;
+}
+
+.categories-item p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.item{
+    width: 220px;
+    margin: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item img {
+    width: 200px;
+    height:200px;
+    border-radius: 6px;
+}
+
+.item h3 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #222;
+}
+
+.item p{
+    margin: 5px 0;
+    font-weight: bold;
+    color: #f97316;
+}
+
+button {
+    background: #f97316;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
